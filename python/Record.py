@@ -7,3 +7,9 @@ class EstudianteRecord:
 
 def actividad_record():
     print("Record")
+
+   estudiantes = [
+        EstudianteRecord("Ana Torres", 20, 4.2),
+        EstudianteRecord("Luis Pérez", 22, 3.8),
+        EstudianteRecord("Marta Ruiz", 21, 4.5),
+    ]
