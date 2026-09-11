@@ -13,3 +13,6 @@ def actividad_record():
         EstudianteRecord("Luis Pérez", 22, 3.8),
         EstudianteRecord("Marta Ruiz", 21, 4.5),
     ]
+
+for e in estudiantes:
+        print(f"  {e.nombre} | {e.edad} años | promedio {e.promedio}")
