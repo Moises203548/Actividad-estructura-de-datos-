@@ -18,4 +18,4 @@ for e in estudiantes:
         print(f"  {e.nombre} | {e.edad} años | promedio {e.promedio}")
 
 estudiantes[1].promedio = 4.0
-print(f"  -> Nuevo promedio de {estudiantes[1].nombre}: {estudiantes[1].promedio}")
+print(f"Nuevo promedio de {estudiantes[1].nombre}: {estudiantes[1].promedio}")
