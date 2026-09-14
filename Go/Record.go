@@ -18,4 +18,7 @@ func main() {
 	for _, e := range estudiantes {
 		fmt.Printf("  %s | %d años | promedio %.1f\n", e.Nombre, e.Edad, e.Promedio)
 	}
+
+	estudiantes[1].Promedio = 4.3
+	fmt.Printf("Nuevo promedio de %s: %.1f\n", estudiantes[1].Nombre, estudiantes[1].Promedio)
 }
