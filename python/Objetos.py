@@ -13,3 +13,11 @@ class Estudiante:
 
 def actividad_objeto():
     print("\n Objetos")
+
+estudiantes = [
+        Estudiante("Ana Torres", 20, 4.2),
+        Estudiante("Luis Pérez", 22, 3.8),
+        Estudiante("Marta Ruiz", 21, 4.5),
+    ]
+for e in estudiantes:
+        e.mostrar_info()
