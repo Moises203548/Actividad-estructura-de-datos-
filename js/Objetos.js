@@ -20,3 +20,6 @@ const estudiantes = [
 ];
 
 estudiantes.forEach((e) => e.mostrarInfo());
+
+estudiantes[1].setPromedio(4.5);
+console.log(`Nuevo promedio de ${estudiantes[1].nombre}: ${estudiantes[1].promedio}`);
