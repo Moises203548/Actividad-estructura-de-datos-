@@ -13,3 +13,10 @@ class Estudiante {
         this.promedio = nuevoPromedio;
     }
 }
+const estudiantes = [
+    new Estudiante("Ana Torres", 20, 4.2),
+    new Estudiante("Luis Pérez", 22, 3.8),
+    new Estudiante("Marta Ruiz", 21, 4.5),
+];
+
+estudiantes.forEach((e) => e.mostrarInfo());
