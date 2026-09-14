@@ -21,3 +21,6 @@ estudiantes = [
     ]
 for e in estudiantes:
         e.mostrar_info()
+
+estudiantes[1].set_promedio(4.0)
+print(f"Nuevo promedio de {estudiantes[1].nombre}: {estudiantes[1].promedio}")
